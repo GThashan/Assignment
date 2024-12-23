@@ -1,0 +1,131 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #a8c0ff, #fbc2eb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.wrapper {
+    background: white;
+    padding: 30px 40px;
+    margin:20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.wrapper_head {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.title-text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+   
+    width:100%
+}
+
+.title_login, .title_signup {
+    flex: 1;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(30, 60, 100, 0.5);
+   
+}
+
+.title_signup {
+    background: white;
+    color: black;
+   
+    
+}
+
+.title_login:hover, .title_signup:hover {
+    background: linear-gradient(to right, #2a5298, #1e3c72);
+    color: white;
+}
+
+
+.form-container {
+    margin-top: 20px;
+}
+
+.form_body input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+    outline: none;
+    box-shadow: 0 1px 1px rgba(30, 60, 100, 0.5);
+}
+
+.form_body input:focus {
+    border-color: #1e3c72;
+    box-shadow: 0 0 5px rgba(30, 60, 114, 0.5);
+}
+
+.forgot {
+    display: block;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #0C6EDB;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+
+.form_body button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.form_body button:hover {
+    background: linear-gradient(to right, #2a5298, #1e3c72);
+}
+
+
+.form_body p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: black;
+}
+
+.form_body p span {
+    color: #0C6EDB;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form_body p span:hover {
+    text-decoration: underline;
+}
